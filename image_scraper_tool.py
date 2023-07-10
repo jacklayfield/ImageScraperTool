@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import time
  
 # What you enter here will be searched for
-query = "mosquito bite"
+query = input("Enter search query: ")
  
 # Creating a webdriver instance
 driver = webdriver.Chrome('./chromedriver_win32_new/chromedriver.exe')
